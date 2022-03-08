@@ -1,7 +1,7 @@
-package com.milena.mapstructlombokdemo.repository;
+package com.fmchan.mapstructlombokdemo.repository;
 
-import com.milena.mapstructlombokdemo.entity.Address;
-import com.milena.mapstructlombokdemo.enumeration.AddressType;
+import com.fmchan.mapstructlombokdemo.entity.Address;
+import com.fmchan.mapstructlombokdemo.enumeration.AddressType;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

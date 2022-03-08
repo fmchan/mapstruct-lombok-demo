@@ -1,11 +1,11 @@
-package com.milena.mapstructlombokdemo.controller;
+package com.fmchan.mapstructlombokdemo.controller;
 
-import com.milena.mapstructlombokdemo.dto.AddressDto;
-import com.milena.mapstructlombokdemo.dto.DeliveryAddressDto;
-import com.milena.mapstructlombokdemo.dto.UserDto;
-import com.milena.mapstructlombokdemo.dto.UserInfoDto;
-import com.milena.mapstructlombokdemo.enumeration.AddressType;
-import com.milena.mapstructlombokdemo.service.UserService;
+import com.fmchan.mapstructlombokdemo.dto.AddressDto;
+import com.fmchan.mapstructlombokdemo.dto.DeliveryAddressDto;
+import com.fmchan.mapstructlombokdemo.dto.UserDto;
+import com.fmchan.mapstructlombokdemo.dto.UserInfoDto;
+import com.fmchan.mapstructlombokdemo.enumeration.AddressType;
+import com.fmchan.mapstructlombokdemo.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,4 +1,4 @@
-package com.milena.mapstructlombokdemo;
+package com.fmchan.mapstructlombokdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

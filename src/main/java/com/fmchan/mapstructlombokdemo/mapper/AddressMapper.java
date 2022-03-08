@@ -1,11 +1,11 @@
-package com.milena.mapstructlombokdemo.mapper;
+package com.fmchan.mapstructlombokdemo.mapper;
 
-import com.milena.mapstructlombokdemo.dto.AddressDto;
-import com.milena.mapstructlombokdemo.dto.DeliveryAddressDto;
-import com.milena.mapstructlombokdemo.dto.SimpleAddressDto;
-import com.milena.mapstructlombokdemo.entity.Address;
-import com.milena.mapstructlombokdemo.entity.User;
-import com.milena.mapstructlombokdemo.repository.UserRepository;
+import com.fmchan.mapstructlombokdemo.dto.AddressDto;
+import com.fmchan.mapstructlombokdemo.dto.DeliveryAddressDto;
+import com.fmchan.mapstructlombokdemo.dto.SimpleAddressDto;
+import com.fmchan.mapstructlombokdemo.entity.Address;
+import com.fmchan.mapstructlombokdemo.entity.User;
+import com.fmchan.mapstructlombokdemo.repository.UserRepository;
 import org.mapstruct.Context;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

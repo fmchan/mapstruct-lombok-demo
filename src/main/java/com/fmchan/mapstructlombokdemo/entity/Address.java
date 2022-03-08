@@ -1,6 +1,6 @@
-package com.milena.mapstructlombokdemo.entity;
+package com.fmchan.mapstructlombokdemo.entity;
 
-import com.milena.mapstructlombokdemo.enumeration.AddressType;
+import com.fmchan.mapstructlombokdemo.enumeration.AddressType;
 import lombok.*;
 
 import javax.persistence.*;

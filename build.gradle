@@ -1,12 +1,8 @@
 plugins {
-	id 'org.springframework.boot' version '2.5.0'
+	id 'org.springframework.boot' version '2.6.4'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
 }
-
-group = 'com.milena'
-version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '11'
 
 configurations {
 	compileOnly {
@@ -14,6 +10,9 @@ configurations {
 	}
 }
 compileJava {
+	sourceCompatibility = 17
+	targetCompatibility = 17
+	options.encoding = 'UTF-8'
 	options.compilerArgs += [
 			'-Amapstruct.defaultComponentModel=spring'
 	]
@@ -29,7 +28,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.projectlombok:lombok'
 	implementation 'org.mapstruct:mapstruct:1.4.2.Final'
-	runtimeOnly 'org.postgresql:postgresql'
+	runtimeOnly 'mysql:mysql-connector-java'
 	annotationProcessor 'org.mapstruct:mapstruct-processor:1.4.2.Final'
 	annotationProcessor 'org.projectlombok:lombok-mapstruct-binding:0.1.0'
 	annotationProcessor 'org.projectlombok:lombok'

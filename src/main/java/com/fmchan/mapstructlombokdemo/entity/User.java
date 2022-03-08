@@ -1,4 +1,4 @@
-package com.milena.mapstructlombokdemo.entity;
+package com.fmchan.mapstructlombokdemo.entity;
 
 import lombok.*;
 
@@ -11,6 +11,7 @@ import java.util.UUID;
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 @Getter
 @Setter
+@ToString
 @Entity(name = "users")
 public class User {
 

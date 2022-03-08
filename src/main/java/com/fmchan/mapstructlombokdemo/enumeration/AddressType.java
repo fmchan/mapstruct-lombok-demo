@@ -1,4 +1,4 @@
-package com.milena.mapstructlombokdemo.enumeration;
+package com.fmchan.mapstructlombokdemo.enumeration;
 
 public enum AddressType {
 

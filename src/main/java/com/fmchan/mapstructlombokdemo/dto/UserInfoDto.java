@@ -1,4 +1,4 @@
-package com.milena.mapstructlombokdemo.dto;
+package com.fmchan.mapstructlombokdemo.dto;
 
 import lombok.Data;
 

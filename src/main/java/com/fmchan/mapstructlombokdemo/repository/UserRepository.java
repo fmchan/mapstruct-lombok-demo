@@ -1,6 +1,6 @@
-package com.milena.mapstructlombokdemo.repository;
+package com.fmchan.mapstructlombokdemo.repository;
 
-import com.milena.mapstructlombokdemo.entity.User;
+import com.fmchan.mapstructlombokdemo.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;
